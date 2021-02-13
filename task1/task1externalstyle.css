@@ -1,0 +1,26 @@
+#table-1 {
+    border-collapse: collapse;
+    border-style: solid;
+    text-align: center;
+    width: 35%;
+}
+
+#Catalog {
+    background-color: yellowgreen;
+}
+
+.headers {
+    background-color: greenyellow;
+}
+
+.light-green {
+    background-color: lightgreen;
+}
+
+.low-money {
+    background-color: orangered;
+}
+
+.blank-white, .light-green {
+    height: 27px;
+}
