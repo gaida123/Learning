@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        #table-1 {
+            border-collapse: collapse;
+            border-style: solid;
+            text-align: center;
+            width: 35%;
+        }
+
+        #Catalog {
+            background-color: yellowgreen;
+        }
+
+        .headers {
+            background-color: greenyellow;
+        }
+        
+        .light-green {
+            background-color: lightgreen;
+        }
+
+        .low-money {
+            background-color: orangered;
+        }
+
+        .blank-white, .light-green {
+            height: 27px;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="table-1" border="2">
+        <tr>
+            <td colspan="6" id="Catalog">
+                Book Catalog
+            </td>
+
+        <tr>
+            <td rowspan="2" class="headers">
+                No.
+            </td>
+
+            <td rowspan="2" class="headers">
+                Title
+            </td>
+
+            <td rowspan="2" class="headers">
+                Author
+            </td>
+
+            <td colspan="2" class="headers">
+                Price
+            </td>
+        </tr>
+
+        <tr>
+            <td class="headers">
+                Normal
+            </td>
+
+            <td class="headers">
+                Sale
+            </td>
+
+        <tr>
+            <td class="light-green">
+                1
+            </td>
+
+            <td class="light-green">
+                Create mobile app in 10 minutes
+            </td>
+
+            <td class="light-green">
+                Krishna Wijaya
+            </td>
+
+            <td class="light-green">
+                $20
+            </td>
+
+            <td class="low-money">
+                $7
+            </td>
+        </tr>
+
+        <tr>
+            <td class="blank-white">
+                2
+            </td>
+
+            <td class="blank-white">
+                How to be flutter developer
+            </td>
+
+            <td class="blank-white">
+                Arta Wiswaman
+            </td>
+
+            <td class="blank-white">
+                $50
+            </td>
+
+            <td>
+                --
+            </td>
+        </tr>
+
+        <tr>
+            <td class="light-green">
+                3
+            </td>
+
+            <td class="light-green">
+                Basic Wordpress for Beginners
+            </td>
+
+            <td class="light-green">
+                Krishna Wijaya
+            </td>
+
+            <td class="light-green">
+                $30
+            </td>
+
+            <td class="light-green">
+                --
+            </td>
+        </tr>
+
+        <tr>
+            <td class="blank-white">
+                4
+            </td>
+
+            <td class="blank-white">
+                Learn C++ in New Way
+            </td>
+
+            <td class="blank-white">
+                Esa Krismawan
+            </td>
+
+            <td class="blank-white">
+                $25
+            </td>
+
+            <td class="blank-white">
+                --
+            </td>
+        </tr>
+
+        <tr>
+            <td class="light-green">
+                5
+            </td>
+
+            <td class="light-green">
+                Become Laravel Expert in 1 Hour
+            </td>
+
+            <td class="light-green">
+                Intan Amanda
+            </td>
+
+            <td class="light-green">
+                $75
+            </td>
+
+            <td  class="low-money">
+                $50
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
