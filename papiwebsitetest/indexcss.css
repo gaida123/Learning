@@ -1,0 +1,132 @@
+li {
+    display: inline;
+}
+
+ul {
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#nav-2 {
+    float: right;
+}
+
+.innav-1 {
+    padding: 9.6px 9.6px 9.6px 9.6px;
+}
+
+#nav-1 {
+    background-color: #242847;
+    margin: 0px 179px 0px 179px;
+    width: auto;
+    height: 76px;
+    padding: 16px 0px 16px 0px;
+}
+
+body {
+    margin: 0%;
+}
+
+#lin-logo {
+    display: inline-block;
+}
+
+#wholenav {
+    background-color: #242847;
+    font-weight: bold;
+}
+
+#under-linenetc {
+    color: lightgray;
+}
+
+#logo-header {
+    font-size: 28.8px;
+}
+
+#shopping-cart-icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#switchingimg {
+    height: 100px;
+    width: 100px;
+    /* width: 1500px;
+    height: 654.95px; */
+    /* max-width: max-content;
+    max-height: max-content; */
+    /* remove extra space below image */
+}
+
+#important-info {
+    padding: 20px 490px 0px 490px;
+    text-align: center;
+}
+
+#important-info-content {
+    text-align: justify;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.65em;
+}
+
+#newarrivals {
+    padding-top: 6%;
+}
+
+#newarrivals h2 {
+    margin-bottom: 14.8px;
+    margin-top: 0px;
+}
+
+#newarrivals p {
+    color: #666;
+}
+
+#img-ul li img {
+    border-radius: 20px;
+}
+
+#img-ul {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#img-div {
+    width: 100%;
+    border: 0px solid black;
+}
+
+.img-li {
+    padding: 20px;
+}
+
+#Contactusform input {
+    height: 39.6px;
+    width: 17em;
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+}
+
+#Contactusform select {
+    height: 39.6px;
+    width: 17em;
+    border-radius: 20px;
+    border: 1px solid #767676;
+}
+
+#Contactusform {
+    background-color: #dddddd;
+}
+
+#wholecontactform {
+    margin-left: 175px;
+}

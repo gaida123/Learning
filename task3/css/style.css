@@ -1,72 +1,71 @@
+@font-face {
+    font-family: SegoeUI;
+    src: url(../fonts/selawk.ttf);
+}
 
-    @font-face {
-        font-family: SegoeUI;
-        src: url(../fonts/selawk.ttf);
-    }
+* {
+    font-family: 'SegoeUI';
+}
 
-    * {
-        font-family: 'SegoeUI';
-    }
+body {
+    margin: 0;
+}
 
-   body {
-       margin: 0;
-   }
+#table {
+    border: 1px #dedede solid;
+    width: 99%;
+    border-collapse: collapse;
+    margin: 16px;
+}
 
-   #table {
-       border: 1px #dedede solid;
-       width: 99%;
-       border-collapse: collapse;
-       margin: 16px;
-   }
+#table-child {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
 
-   #table-child {
-       width: 100%;
-       border-collapse: collapse;
-       margin: 20px;
-   }
+.text-center {
+    text-align: center;
+}
 
-   .text-center {
-       text-align: center;
-   }
+.bg-white {
+    background-color: #f2f2f2;
+    border: 1px #dedede solid;
+}
 
-   .bg-white {
-       background-color: #f2f2f2;
-       border: 1px #dedede solid;
-   }
+button {
+    background-color: #008ffc;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
 
-   button {
-       background-color: #008ffc;
-       height: 40px;
-       width: 140px;
-       border-radius: 40px;
-       color: white;
-       font-weight: bold;
-   }
+ul#navigation-container li {
+    display: inline;
+}
 
-   ul#navigation-container li {
-       display: inline;
-   }
+a {
+    text-decoration: none;
+    color: lightseagreen;
+}
 
-   a {
-       text-decoration: none;
-       color: lightseagreen;
-   }
+#header {
+    background-color: #343a40;
+    padding: 8px 48px;
+}
 
-   #header {
-       background-color:#343a40;
-       padding: 8px 48px;
-   }
+.navigation-anchor {
+    padding: 8px;
+    color: #FFFFFF80;
+}
 
-   .navigation-anchor {
-       padding: 8px;
-       color: #FFFFFF80;
-   }
+#title {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
 
-   #title {
-       font-size: 20px;
-       letter-spacing: 1px;
-   }
-
-   .text-center a{
-        color: #007bff;
-   }
+.text-center a {
+    color: #007bff;
+}
